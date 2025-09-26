@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            min-width: 100%;
+            min-height: 100%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #username,
+        #password {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+
+        #username:focus,
+        #password:focus {
+            border: 2px solid #555;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Page</h1>
+        <form action="">
+            Username: <input type="text" name="username" id="username"><br><br>
+            Password: <input type="password" name="password" id="password"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>
